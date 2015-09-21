@@ -63,7 +63,7 @@ func popTransitionImageView() -> UIImageView?
                         }, completion: { (completion: Bool) -> Void in
                         imageSnapshot.removeFromSuperview()
                             fromTransitionImage.hidden = false
-                            toTransitionImage?.hidden = true
+                            toTransitionImage?.hidden = false
                             transitionContext.completeTransition(!transitionContext.transitionWasCancelled())
                     })
                     
