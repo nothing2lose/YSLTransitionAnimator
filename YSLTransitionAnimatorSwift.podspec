@@ -1,6 +1,6 @@
 @version = "0.0.2"
 Pod::Spec.new do |s|
-  s.name         = "YSLTransitionAnimator"
+  s.name         = "YSLTransitionAnimatorSwift"
   s.version      = @version
   s.summary      = "a pinterest style transition animation"
   s.homepage     = "https://github.com/y-hryk/YSLTransitionAnimator"
